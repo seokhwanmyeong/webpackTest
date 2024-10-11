@@ -1,0 +1,52 @@
+{
+  "title": "1302L1H-001",
+  "id": "1302L1H-001",
+  "page": 1,
+  "originType": "L1H",
+  "type": "L1H",
+  "writer": "ham",
+  "theme": "theme8",
+  "grade": 3,
+  "chapter": 2,
+  "level": 2,
+  "question": "잘 듣고, 그림에 알맞은 말을 골라 보세요.",
+  "questionTxt": null,
+  "questionImg": "images/q1.png",
+  "questionVoice": null,
+  "card": null,
+  "cardSpace": null,
+  "exampleTxt": null,
+  "txtSpace": null,
+  "answerVoice": null,
+  "answer": "The three thousand won thousand won",
+  "answerStt": null,
+  "sttCheck": null,
+  "endpoint": null,
+  "hint": null,
+  "choice": [
+    {
+      "image": null,
+      "audio": "media/c1.mp3",
+      "value": 1,
+      "text": null
+    },
+    {
+      "image": null,
+      "audio": "media/c2.mp3",
+      "value": 2,
+      "text": null
+    },
+    {
+      "image": null,
+      "audio": "media/c3.mp3",
+      "value": 3,
+      "text": null
+    },
+    {
+      "image": null,
+      "audio": "media/c4.mp3",
+      "value": 4,
+      "text": null
+    }
+  ]
+}

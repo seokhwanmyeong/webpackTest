@@ -1,0 +1,27 @@
+{
+  "style": {
+    "character": {
+      "x": -38,
+      "y": -160,
+      "scale": 0.34
+    }
+  },
+  "anims": {
+    "character": {
+      "init": "Idle",
+      "correct": ["Win"],
+      "incorrect": ["Failed"]
+    },
+    "object": [
+      {
+        "init": "animation",
+        "width": 1232,
+        "height": 625,
+        "x": 0,
+        "y": 0,
+        "json": "T8.json",
+        "atlas": "T8.atlas"
+      }
+    ]
+  }
+}

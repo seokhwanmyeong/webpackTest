@@ -1,0 +1,242 @@
+{
+  "src": {
+    "image": {
+      "btn": [
+        {
+          "key": "btnCheckDefault",
+          "root": "images/",
+          "name": "btn_check_default",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnCheckPress",
+          "root": "images/",
+          "name": "btn_check_press",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnBgmPlayDefault",
+          "root": "images/",
+          "name": "btn_bgm_play_default",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnBgmPlayPress",
+          "root": "images/",
+          "name": "btn_bgm_play_press",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnBgmStopDefault",
+          "root": "images/",
+          "name": "btn_bgm_stop_default",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnBgmStopPress",
+          "root": "images/",
+          "name": "btn_bgm_stop_press",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnResetDefault",
+          "root": "images/",
+          "name": "btn_reset_default",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnResetPress",
+          "root": "images/",
+          "name": "btn_reset_press",
+          "fileExtends": "png"
+        }
+      ],
+      "pop": [
+        {
+          "key": "popDialogSound",
+          "root": "images/",
+          "name": "pop_dialog_sound",
+          "fileExtends": "png"
+        },
+        {
+          "key": "popCorrect",
+          "root": "images/",
+          "name": "pop_correct",
+          "fileExtends": "png"
+        },
+        {
+          "key": "popIncorrect",
+          "root": "images/",
+          "name": "pop_incorrect",
+          "fileExtends": "png"
+        },
+        {
+          "key": "popResultTE",
+          "root": "images/",
+          "name": "pop_result_TE",
+          "fileExtends": "png"
+        }
+      ]
+    },
+    "audio": {
+      "bgm": [
+        {
+          "key": "bgm",
+          "root": "media/",
+          "name": "bgm",
+          "fileExtends": "mp3"
+        },
+        {
+          "key": "bgmCorrect",
+          "root": "media/",
+          "name": "bgm_correct",
+          "fileExtends": "mp3"
+        },
+        {
+          "key": "bgmIncorrect",
+          "root": "media/",
+          "name": "bgm_incorrect",
+          "fileExtends": "mp3"
+        },
+        {
+          "key": "bgmClick",
+          "root": "media/",
+          "name": "bgm_click",
+          "fileExtends": "mp3"
+        }
+      ]
+    }
+  },
+  "style": {
+    "bg": {
+      "mainX": 1232,
+      "mainY": 625
+    },
+    "title": {
+      "width": 832,
+      "height": 70,
+      "radius": 25,
+      "opacity": 1,
+      "background": "0xffffff",
+      "txt": {
+        "x": 0,
+        "y": -2,
+        "scaleBase": 48,
+        "scaleTo": 24,
+        "doubleSize": 24,
+        "font": {
+          "font": "700 48px 'NanumGothicBold'",
+          "fill": "#000000"
+        }
+      }
+    },
+    "container": {
+      "padding": {
+        "top": 34,
+        "left": 24,
+        "right": 24,
+        "bottom": 30
+      },
+      "width": 900,
+      "height": 380,
+      "x": 167,
+      "y": 5,
+      "borderColor": "0x98e0ff",
+      "borderWidth": 10,
+      "radius": 20,
+      "gap": 40
+    },
+    "audio": {
+      "question": {
+        "x": 1050,
+        "y": 29,
+        "width": 88,
+        "height": 80
+      },
+      "script": {
+        "container": {
+          "adjustWH": {
+            "width": 0,
+            "height": -100
+          }
+        },
+        "text": {
+          "fontFamily": "AmantaPrintBold",
+          "fontSize": "24px",
+          "fill": "#ffffff",
+          "padding": {
+            "x": 40,
+            "y": 48
+          },
+          "align": "left",
+          "lineSpacing": 10
+        },
+        "deem": {
+          "adjustXY": {
+            "x0": -20,
+            "x1": 40,
+            "y0": 12,
+            "y1": -32
+          },
+          "radius": 10,
+          "fill": "0x000000",
+          "opacity": 0.9
+        },
+        "progressBar": {
+          "container": {
+            "x": 50,
+            "y": 550
+          },
+          "bg": {
+            "fill": "0x222222",
+            "opacity": 0.8,
+            "width": 700,
+            "height": 20
+          },
+          "bar": {
+            "fill": "0xffffff",
+            "opacity": 1,
+            "width": 0,
+            "height": 20
+          }
+        }
+      }
+    },
+    "dialog": {
+      "resultTE": {
+        "width": 515,
+        "height": 302,
+        "btn": {
+          "width": 160,
+          "height": 88
+        },
+        "font": {
+          "font": "700 24px 'Nanum Gothic'",
+          "fill": "#000000"
+        }
+      }
+    },
+    "btnCheck": {
+      "x": 1017,
+      "y": 511,
+      "width": 200,
+      "height": 88
+    },
+    "btnBgm": {
+      "x": 27,
+      "y": 521,
+      "width": 160,
+      "height": 69
+    },
+    "btnReset": {
+      "x": 1017,
+      "y": 423,
+      "width": 200,
+      "height": 88
+    },
+    "btnCheckBox": {
+      "width": 48,
+      "height": 48
+    }
+  }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!--Dnsoft-v0.5.2-241004 -->
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Nanum+Gothic:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://aidtcdn-dev.aitextbook.co.kr/content/js/dtext_api_wrapper_opr.js"></script>
+    <title>3학년 2단원</title>
+    <style>
+      @font-face {
+        font-family: AmantaPrintBold;
+        src: url("https://aidtcdn-dev.aitextbook.co.kr/content/font/e3_engl_0s_l1/AmantaPrintBold_otf.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: AmantaPrintRegular;
+        src: url("https://aidtcdn-dev.aitextbook.co.kr/content/font/e3_engl_0s_l1/AmantaPrintRegular_otf.otf")
+          format("opentype");
+      }
+
+      body {
+        font-family: "AmantaPrintBold", sans-serif;
+      }
+
+      body {
+        font-family: "AmantaPrintRegular", sans-serif;
+      }
+
+      #loading-screen {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+      }
+
+      .spinner {
+        width: 80px;
+        height: 80px;
+        border: 24px solid #e9e9e9;
+        border-top-color: #6791f0;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .spinner {
+        width: 50px;
+        height: 50px;
+        border: 6px solid #cccccc;
+        border-top-color: #333333;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="visually-hidden">3학년 2단원 1문제</h1>
+    <div id="loading-screen">
+      <div class="spinner"></div>
+    </div>
+    <script src="./js/phaser.min.js"></script>
+    <script src="./js/SpinePlugin.js"></script>
+    <script src="./js/udl.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/preload.js"></script>
+    <script src="./js/bg.js"></script>
+    <script src="./js/character.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/quize.js"></script>
+    <script src="./js/main.js"></script>
+    <div id="game-container"></div>
+    <script>
+      window.onload = function () {
+        const loadingScreen = document.getElementById("loading-screen");
+        const gameContainer = document.getElementById("game-container");
+        loadingScreen.remove();
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+{
+  "src": {
+    "image": {
+      "btn": [
+        {
+          "key": "btnChoice1",
+          "root": "images/",
+          "name": "card1",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnChoice2",
+          "root": "images/",
+          "name": "card1",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnChoice3",
+          "root": "images/",
+          "name": "card1",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnChoice4",
+          "root": "images/",
+          "name": "card1",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnCheckBoxDefault",
+          "root": "images/",
+          "name": "btn_checkbox_default",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnCheckBoxPress",
+          "root": "images/",
+          "name": "btn_checkbox_press",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnCheckBoxCorrect",
+          "root": "images/",
+          "name": "btn_checkbox_correct",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnCheckBoxIncorrect",
+          "root": "images/",
+          "name": "btn_checkbox_incorrect",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnCPlay",
+          "root": "images/",
+          "name": "btn_c_play",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnCStop",
+          "root": "images/",
+          "name": "btn_c_stop",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnCDisabled",
+          "root": "images/",
+          "name": "btn_c_disabled",
+          "fileExtends": "png"
+        }
+      ],
+      "question": [
+        {
+          "key": "frame1",
+          "root": "images/",
+          "name": "frame1",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnQPlayDefault",
+          "root": "images/",
+          "name": "btn_play_default",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnQPlayPress",
+          "root": "images/",
+          "name": "btn_play_press",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnQStopDefault",
+          "root": "images/",
+          "name": "btn_stop_default",
+          "fileExtends": "png"
+        },
+        {
+          "key": "btnQStopPress",
+          "root": "images/",
+          "name": "btn_stop_press",
+          "fileExtends": "png"
+        }
+      ]
+    }
+  },
+  "style": {
+    "card": {
+      "question": {
+        "width": 360,
+        "height": 270,
+        "radius": 18,
+        "x": 436,
+        "y": 130,
+        "img": {
+          "x": 450,
+          "y": 144,
+          "width": 334,
+          "height": 244
+        },
+        "audio": {
+          "x": 1050,
+          "y": 40,
+          "width": 88,
+          "height": 80
+        }
+      },
+      "choice": [
+        {
+          "width": 206,
+          "height": 137,
+          "x": 188,
+          "y": 401,
+          "checkbox": { "x": 2, "y": 144 },
+          "img": {
+            "width": 206,
+            "height": 137
+          },
+          "audio": {
+            "y": 2,
+            "width": 84,
+            "height": 83
+          }
+        },
+        {
+          "width": 206,
+          "height": 137,
+          "x": 405,
+          "y": 401,
+          "checkbox": { "x": 2, "y": 144 },
+          "img": {
+            "width": 206,
+            "height": 137
+          },
+          "audio": {
+            "y": 2,
+            "width": 84,
+            "height": 83
+          }
+        },
+        {
+          "width": 206,
+          "height": 137,
+          "x": 622,
+          "y": 401,
+          "checkbox": { "x": 2, "y": 144 },
+          "img": {
+            "width": 206,
+            "height": 137
+          },
+          "audio": {
+            "y": 2,
+            "width": 84,
+            "height": 83
+          }
+        },
+        {
+          "width": 206,
+          "height": 137,
+          "x": 839,
+          "y": 401,
+          "checkbox": { "x": 2, "y": 144 },
+          "img": {
+            "width": 206,
+            "height": 137
+          },
+          "audio": {
+            "y": 2,
+            "width": 84,
+            "height": 83
+          }
+        }
+      ]
+    }
+  }
+}
